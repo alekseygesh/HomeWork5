@@ -23,9 +23,9 @@ public class Main {
         String yy;
         do {
             System.out.println("Введите второе число и нажмите Enter: ");
-            xx = buffer.readLine();
-        } while (!(xx.matches(reg)));
-        double y = Double.parseDouble(xx);
+            yy = buffer.readLine();
+        } while (!(yy.matches(reg)));
+        double y = Double.parseDouble(yy);
 
         String z = "a";
         do {
